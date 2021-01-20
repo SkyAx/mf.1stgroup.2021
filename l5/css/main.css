@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 90px;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p, span {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+footer {
+    margin-top: 100px;
+}
