@@ -17,3 +17,16 @@ p, span {
 footer {
     margin-top: 100px;
 }
+
+#main .first{
+    color: #1e2227;
+}
+
+.elem.fourth {
+
+}
+
+
+main > p > span:nth-child(3) + span {
+    font-size: 32px;
+}
