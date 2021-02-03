@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<main>
+  <div class="login">
+    <div class="ui middle aligned center aligned grid">
+      <div class="column">
+        <h2 class="ui blue image header">
+          <img src="https://marketing.by/upload/medialibrary/010/logo.jpg" class="image">
+          <div class="content">
+            Log-in to Myfreedom account
+          </div>
+        </h2>
+        <form class="ui large form login-form">
+          <div class="ui stacked segment">
+            <div class="field">
+              <div class="ui left icon input">
+                <i class="user icon"></i>
+                <input id="login-email" type="text" name="email" placeholder="E-mail address">
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui left icon input">
+                <i class="lock icon"></i>
+                <input id="login-password" type="password" name="password" placeholder="Password">
+              </div>
+            </div>
+            <button class="ui fluid large blue submit button" id="login-button">Login</button>
+          </div>
+        </form>
+
+        <div class="ui message">
+          New to us? <a href="#">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</main>
+</body>
+</html>
